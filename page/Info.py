@@ -10,10 +10,10 @@ markdown_text_basic = '''
 ### DFT AND HRGASSORP Plotting
 
 Version
-0.3
+0.4
 
 Date:
-04/16/2020
+09/14/2020
 
 Authors: [Scott Angell](mailto:Scott.Angel@albemarle.com) and [Yupei Chen](mailto:Yupei.Chen@Albemarle.com)  
 '''
@@ -36,6 +36,8 @@ Navbar
 Upload Page with Searchable Selector Table
 
 Plotting
+
+Web-hosting
 '''
 
 

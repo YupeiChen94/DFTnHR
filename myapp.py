@@ -23,13 +23,16 @@ app = Flask(__name__)
 #
 # app.wsgi_app = PrefixMiddleware(app.wsgi_app, prefix='/dfthr')
 
+
 @app.route('/hello')
 def hello():
     return "Hello!"
 
+
 @app.route('/')
 def home():
     return 'You are on the homepage of DFTHR!'
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)

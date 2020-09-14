@@ -1,9 +1,9 @@
+import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 
-from app import app
+from app import app, server
 from page import Info, Upload, Options, Graphs, Tables
 
 navbar = dbc.NavbarSimple(
@@ -50,9 +50,34 @@ def display_page(pathname):
     elif pathname == '/page/Tables':
         return Tables.layout
     else:
-        return '404'
+        return Info.layout
 
 
 if __name__ == '__main__':
-    # app.run(host='0.0.0.0', port=80)
-    app.run_server(debug=False)
+    app.run_server()
+
+    # Alternate Multi-page example
+    # server.py
+    # from flask import Flask
+    #
+    # server = Flask(__name__)
+    #
+    # app1.py
+    # import dash
+    # from server import server
+    #
+    # app = dash.Dash(name='app1', sharing=True, server=server, url_base_pathname='/app1')
+    #
+    # app2.py
+    # import dash
+    # from server import server
+    #
+    # app = dash.Dash(name='app2', sharing=True, server=server, url_base_pathname='/app2')
+    #
+    # run.py
+    # from server import server
+    # from app1 import app as app1
+    # from app2 import app as app2
+    #
+    # if __name__ == '__main__':
+    #     server.run()
