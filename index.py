@@ -25,7 +25,14 @@ navbar = dbc.NavbarSimple(
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     navbar,
-    html.Div(id='page-content')
+    html.Div(id='page-content'),
+
+    # DF Storage
+    dcc.Store(id='DFT-P', storage_type='memory'),
+    dcc.Store(id='DFT-F', storage_type='memory'),
+    dcc.Store(id='HR-P', storage_type='memory'),
+    dcc.Store(id='HR-A', storage_type='memory'),
+    dcc.Store(id='HR-D', storage_type='memory'),
 ])
 
 
@@ -47,4 +54,5 @@ def display_page(pathname):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # app.run(host='0.0.0.0', port=80)
+    app.run_server(debug=False)

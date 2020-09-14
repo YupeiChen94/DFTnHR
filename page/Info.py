@@ -10,7 +10,7 @@ markdown_text_basic = '''
 ### DFT AND HRGASSORP Plotting
 
 Version
-0.1
+0.3
 
 Date:
 04/16/2020
@@ -19,23 +19,9 @@ Authors: [Scott Angell](mailto:Scott.Angel@albemarle.com) and [Yupei Chen](mailt
 '''
 
 markdown_text_todo = '''
-#### ToDo:
-
-Upload page will have text field to enter SID  
-
-Will then search directory for each SID  
-
-Needs to notify user if SID does not exist  
-
-Visual Feedback on files read in to user  
-
-File Upload
-
-Plotting
+#### ToDo: 
 
 Tables
-
-Callbacks
 
 Customization
 '''
@@ -46,6 +32,10 @@ markdown_text_done = '''
 Multi-page
 
 Navbar
+
+Upload Page with Searchable Selector Table
+
+Plotting
 '''
 
 
