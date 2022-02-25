@@ -24,8 +24,10 @@ col_HR_a = ['BJH-A-CuPV_(Pore Width)', 'BJH-A-CuPV_(Pore Volume)', 'BJH-A-PoSD_(
 col_HR_d = ['BJH-D-CuPV_(Pore Width)', 'BJH-D-CuPV_(Pore Volume)', 'BJH-D-PoSD_(Pore Width)', 'BJH-D-PoSD_(dV/dlog(D)PV)']
 
 # Directories
-directory = '//BYTALTX01/Reference/Other/Python/DFTnHR/Resources/Input/'
-error_directory = '//BYTALTX01/Reference/Other/Python/DFTnHR/Resources/Input/Error/'
+# directory = '//BYTALTX01/Reference/Other/Python/DFTnHR/Resources/Input/'
+# error_directory = '//BYTALTX01/Reference/Other/Python/DFTnHR/Resources/Input/Error/'
+directory = 'C:/Users/flute/PycharmProjects/DFTnHR/Resources/Input/'
+error_directory = 'C:/Users/flute/PycharmProjects/DFTnHR/Resources/Error/'
 
 # endregion
 

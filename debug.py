@@ -40,8 +40,8 @@ col_HR_a = ['BJH-A-CuPV_(Pore Width)', 'BJH-A-CuPV_(Pore Volume)', 'BJH-A-PoSD_(
 col_HR_d = ['BJH-D-CuPV_(Pore Width)', 'BJH-D-CuPV_(Pore Volume)', 'BJH-D-PoSD_(Pore Width)', 'BJH-D-PoSD_(dV/dlog(D)PV)']
 
 # Debugging Constants
-directory = 'C:/Users/flute/PycharmProjects/Albemarle/DFTnHR/Resources/Input/'
-error_directory = 'C:/Users/flute/PycharmProjects/Albemarle/DFTnHR/Resources/Error/'
+directory = 'C:/Users/flute/PycharmProjects/DFTnHR/Resources/Input/'
+error_directory = 'C:/Users/flute/PycharmProjects/DFTnHR/Resources/Error/'
 DFT_file = 'HRSA2420 6717330 DFT_POSD 6619007_report_01-201909252150953_Table.csv'
 HR_file = 'HRSA2420 6717330 HR_GASSORP 000-617_Table.csv'
 # endregion
